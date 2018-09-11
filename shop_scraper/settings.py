@@ -65,8 +65,8 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'shop_scraper.pipelines.BottomScraperPipeline': 30,
-   'shop_scraper.pipelines.ExclusiveScraperPipeline': 30,
+   'shop_scraper.pipelines.BottomScraperPipeline': 300,
+   'shop_scraper.pipelines.ExclusiveScraperPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
